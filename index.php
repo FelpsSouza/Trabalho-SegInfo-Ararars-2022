@@ -36,27 +36,27 @@
 
       echo ucfirst($pagina);
 
-  ?></h2>
+?></h2>
 
   <div class="bloco">
-  <b><p class="page"><?php echo $paginas[$pagina];?><p></b>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the 
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but
-      also the leap into electronic typesetting, remaining essentially
-      unchanged. It was popularised in the 1960s with the release of Letraset
-      sheets containing Lorem Ipsum passages, and more recently with desktop
-      publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-  </div>
+    <b><p class="page" id="titulo"><?php echo $paginas[$pagina];?><p></b>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 
+        1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but
+        also the leap into electronic typesetting, remaining essentially
+        unchanged. It was popularised in the 1960s with the release of Letraset
+        sheets containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
 
   <div class="container">
     <ul id="Felipe">
-      <li style="--i: #4b0082; --j:#9932cc" action="www.google.com">
+    <li style="--i: #4b0082; --j:#9932cc" action="www.google.com"  onclick="substituirNome('Felipe')">
         <span class="icon">
           <ion-icon name="person-outline"></ion-icon>
         </span>
-        <span class="text">
+        <span class="text" onclick="substituirNome('Felipe')">
           Felipe
         </span>
       </li>
@@ -64,39 +64,39 @@
         <span class="icon">
           <ion-icon name="person-outline"></ion-icon>
         </span>
-        <span class="text">
+        <span class="text" onclick="substituirNome('Guilherme')">
           Guilherme
         </span>
       </li>
-      <li style="--i: #f0f8ff; --j:#ff1111">
+      <li style="--i: #f0f8ff; --j:#ff1111" onclick="substituirNome('Ricardo')">
         <span class="icon">
           <ion-icon name="person-outline"></ion-icon>
         </span>
-        <span class="text">
+        <span class="text" onclick="substituirNome('Ricardo')">
           Ricardo
         </span>
       </li>
-      <li style="--i: #1755ba; --j:#00bfff">
+      <li style="--i: #1755ba; --j:#00bfff" onclick="substituirNome('Paola')">
         <span class="icon">
           <ion-icon name="person-outline"></ion-icon>
         </span>
-        <span class="text">
+        <span class="text" onclick="substituirNome('Paola')">
           Paola
         </span>
       </li>
-      <li style="--i: #ffa9c6; --j:#f434e2">
+      <li style="--i: #ffa9c6; --j:#f434e2" onclick="substituirNome('Galvani')">
         <span class="icon">
           <ion-icon name="person-outline"></ion-icon>
         </span>
-        <span class="text">
+        <span class="text" onclick="substituirNome('Galvani')">
           Galvani
         </span>
       </li>
-      <li style="--i: #ffb6b6; --j:#ff0000">
+      <li style="--i: #ffb6b6; --j:#ff0000" onclick="substituirNome('Hiago')">
         <span class="icon">
           <ion-icon name="person-outline"></ion-icon>
         </span>
-        <span class="text">
+        <span class="text" onclick="substituirNome('Hiago')">
           Hiago
         </span>
       </li>
@@ -104,7 +104,7 @@
   </div>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <script src="./script.js"></script>
 </body>
 
 </html>
