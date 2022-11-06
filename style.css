@@ -43,8 +43,9 @@ h2 {
 }
 
 header {
-  background-color: aqua;
+  background-color: rgba(200, 200, 200, 0.738);
   text-align: center;
+  height: 35px;
 }
 
 a {
@@ -54,6 +55,7 @@ a {
 }
 
 div.bloco {
+  align-items: center;
   border: 2px solid white;
   background-color: rgba(57, 57, 57, 0.656);
   margin-right: 30%;
@@ -61,21 +63,23 @@ div.bloco {
   margin-left: 30%;
 }
 
+h3.page {
+  margin-left: 15px;
+  font-size: 25px;
+  color: white;
+}
+
+div.titulo {
+  border-bottom: 2px solid white;
+}
+
 p {
-  margin: 0px 15px;
+  margin-left: 15px;
+  margin-right: 15px;
   text-align: justify;
   display: inline-block;
   justify-content: left;
   color: white
-}
-
-p.page {
-  position: relative;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 20px;
-  margin-left: 37%;
-  margin-right: 32%;
 }
 
 ul {
